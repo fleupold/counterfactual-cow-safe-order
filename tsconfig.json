@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2022", // or higher like 'es2018', 'es2019', 'es2020', etc.
+    "module": "ESNext", // or 'es2022', 'system', 'node16', 'nodenext'
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
+  },
+  "ts-node": { "esm": true, "experimentalSpecifierResolution": "node" }
+}
