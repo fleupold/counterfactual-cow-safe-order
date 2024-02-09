@@ -1,6 +1,6 @@
 import { ethers, MaxUint256, ZeroHash, AbiCoder } from "ethers";
 import fetch from "node-fetch";
-import fuck, {
+import duck, {
   EthersAdapter,
   SafeAccountConfig,
   PredictedSafeProps,
@@ -13,7 +13,7 @@ import fallbackHandlerAbi from "./abis/fallbackHandler.json" assert { type: "jso
 import setttlementAbi from "./abis/settlement.json" assert { type: "json" };
 import composableCoWAbi from "./abis/composableCow.json" assert { type: "json" };
 
-const Safe = (fuck as any).default;
+const Safe = (duck as any).default;
 
 dotenv.config();
 const provider = new ethers.JsonRpcProvider(process.env.RPC_URL);
