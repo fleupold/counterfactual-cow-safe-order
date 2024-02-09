@@ -12,7 +12,7 @@ And many more...
 
 ## How to run
 
-```bash
+```sh
 cp .env.example .env # then enter your private key in the .env file
 npm install
 npx ts-node index.ts
